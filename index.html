@@ -326,7 +326,8 @@
         .portfolio-item img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;   /* Было cover — теперь изображение полностью видно */
+            background-color: #0f0f1a; /* Тёмный фон на случай пустых полей */
             transition: transform 0.4s ease;
         }
 
